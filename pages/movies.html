@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="movies.css">
+    <title>EvilLive-films</title>
+</head>
+<body >
+  <div class="stars"></div>
+  <div class="twinkling"></div>
+    
+    <!-- side social -->
+  <nav id="nav" class="navbar-menu">
+    <!-- Menu normal -->
+    <ul class="menu">
+      <li><a href="../index.html">Home</a>
+      </li><li><a style="background-color: #cd6302;">Movies</a>
+        <!--<ul class="submenu two">
+          <li><a>Submenu 1</a></li>
+          <li><a>Submenu 2</a></li>
+        </ul>-->
+      </li><li><a href="news.html">News</a>
+        <!-- <ul class="submenu three">
+          <li><a>Submenu 1</a></li>
+          <li><a>Submenu 2</a></li>
+        </ul> -->
+      </li><li><a>Gallery</a>
+        <!--<ul class="submenu four">
+          <li><a>SubMenu 1</a></li>
+          <li><a>SubMenu 2</a></li>
+        </ul>-->
+      </li><li><a>About</a>
+        <ul class="submenu five">
+          <li><a href="../index.html#section-d">Contact</a></li>
+            <li><a href="../index.html#section-e">About us</a></li>
+            <li><a href="team.html">Team</a></li>
+        </ul>
+      </li>
+      <li id="menu-link">
+          <a class="f" href="https://www.facebook.com/evillive007/"><i class="fab fa-facebook"></i></a>
+					<a  class="t" href="https://twitter.com/WeAreEvilLive"><i class="fab fa-twitter"></i></a>
+					<a class="y" href="https://www.youtube.com/channel/UCBn3mHPOjqr2C10OomN0oSQ"><i class="fab fa-youtube"></i></a>
+					<a class="i" href="https://www.instagram.com/evillivefranchise/"><i class="fab fa-instagram"></i></a>
+      </li>
+    </ul>
+    
+    <!-- Mini Menu -->
+    <nav class="navbar-mini-menu">
+      <div class="menu-select">
+        <span class="menu-actual">
+          Menu
+        </span>
+        <span class="btn-select">
+                <i class="fas fa-bars"></i>
+        </span>
+      </div>
+      <ul class="mini-menu-options">
+        <li tabIndex="0"><a href="../index.html">Home</a></li>
+        <li style="background-color: #cd6302;" tabIndex="0"><a>Movies</a></li>
+        <li tabIndex="0"><a href="news.html">News</a></li>
+        <!-- <li tabIndex="0"><a>About</a>
+          <ul class="submenu five">
+            <li><a>About Us</a></li>
+            <li><a>Contact Us</a></li>
+            <li><a>Team</a></li>
+          </ul>
+        </li> -->
+        <li tabIndex="0"><a>Gallery</a></li>
+        <li tabIndex="0"><a href="../index.html#section-e">About</a>
+          <ul class="submenu five">
+            <li><a href="../index.html#section-d">Contact</a></li>
+            <li><a href="../index.html#section-e">About us</a></li>
+            <li><a href="team.html">Team</a></li>
+          </ul>
+        </li>
+      </ul> 
+    </nav>
+  </nav>
+    <!-- heading -->
+    
+    <!-- cards -->
+    <div class="latestMovie">
+        <div id="pgtop" class="page-heading">
+            <h1>OUR MOVIES</h1>
+           </div>
+        <div class="latestMovie__centerBlock">
+            <div class="movieCard" onclick="myfunc()"><img class="movieCard__poster" src="../dummyimg/lu.png"/></div>
+            <div class="movieCard" onclick="myfunc()"><img class="movieCard__poster" src="../dummyimg/poster2.jpg"/></div>
+            <div class="movieCard" onclick="myfunc()"><img class="movieCard__poster" src="../dummyimg/poster3.jpg"/></div>
+            <div class="movieCard" onclick="myfunc()"><img class="movieCard__poster" src="../dummyimg/poster4.jpg"/></div>
+            <div class="movieCard" onclick="myfunc()"><img class="movieCard__poster" src="../dummyimg/poster5.jpg"/></div>
+            <div class="movieCard" onclick="myfunc()"><img class="movieCard__poster" src="../dummyimg/pposter6.jpg"/></div>
+            <div class="latestMovie__cover"></div>
+        </div>
+    </div>
+    <footer class="footer-distributed">
+      <div class="up"><a href="#pgtop"><i class="fas fa-angle-double-up"></i></a></i></div>
+      <div class="footer-right">
+          <a href="https://www.facebook.com/evillive007/"><i class="fab fa-facebook"></i></a>
+          <a href="https://twitter.com/WeAreEvilLive"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.youtube.com/channel/UCBn3mHPOjqr2C10OomN0oSQ"><i class="fab fa-youtube"></i></i></a>
+          <a href="https://www.instagram.com/evillivefranchise/"><i class="fab fa-instagram"></i></a>
+      </div>
+      <div class="footer-left">
+        <p class="footer-links" id="otl">
+          <a class="link-1" href="#">Home</a>
+          <a href="./movies.html">Movies</a>
+          <a href="./news.html">News</a>
+          <a href="#">Gallery</a>
+          <a href="../index.html#section-d">Contact</a>
+        </p>
+        <p>Evil <span class="heighlight">Live</span> &copy; 2018</p>
+        <p id="pshift">Desined by <span class="heighlight"><a href="#">B K Karan</a></span></p>
+      </div>
+    </footer>
+    <script src="../js/jquery-2.1.4.min.js"></script>
+    <script src="../js/movies.js"></script>
+    <script>
+      function myfunc(){
+        window.location.href="./single-movie/movie1.html";
+      }
+    </script>
+</body>
+</html>
