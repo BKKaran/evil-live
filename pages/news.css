@@ -5,13 +5,27 @@ body, html{
     height: 100%;
     font-size: 100%;
     transition: all .4s;
+    
 }
 
 .page-heading{
     margin:auto;
     margin-top: 160px;
     display: block;
-    z-index: 5;
+    
+  }
+  
+  .page-heading h1 {
+    font-family: 'horrorHead', sans-serif;
+    font-size: 3rem;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #FF0000;
+    margin: 0.5em;
+    text-align: center;
+    font-weight: 700;
+    line-height: 0.9;
+    
   }
 
   nav .nav-logo{
@@ -26,10 +40,7 @@ body, html{
     margin-left: 20px;
     padding: 5px;
   }
-  .page-heading h1 {
-    font-size: 3rem;
-   
-  }
+ 
 
 
   @keyframes move-twink-back {
@@ -73,18 +84,18 @@ body, html{
   right:0;
   bottom:0;
   width:100%;
-  height:inh;
+  
   display:block;
 }
 
 .stars {
   background:#000 url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
-  z-index:0;
+  z-index:-1;
 }
 
 .twinkling{
   background:transparent url(http://www.script-tutorials.com/demos/360/images/twinkling.png) repeat top center;
-  z-index:1;
+  z-index:-2;
 
   -moz-animation:move-twink-back 200s linear infinite;
   -ms-animation:move-twink-back 200s linear infinite;

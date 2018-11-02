@@ -18,21 +18,13 @@
     <!-- Menu normal -->
     <ul class="menu">
       <li><a href="../index.html">Home</a>
-      </li><li><a style="background-color: #cd6302;">Movies</a>
-        <!--<ul class="submenu two">
-          <li><a>Submenu 1</a></li>
-          <li><a>Submenu 2</a></li>
-        </ul>-->
+      </li><li><a>Movies</a>
+        <ul class="submenu two">
+            <li><a href="./single-movie/threate.html">Threate</a></li>
+            <li><a href="./single-movie/wn.html">Who's Next</a></li>
+        </ul>
       </li><li><a href="news.html">News</a>
-        <!-- <ul class="submenu three">
-          <li><a>Submenu 1</a></li>
-          <li><a>Submenu 2</a></li>
-        </ul> -->
-      </li><li><a>Gallery</a>
-        <!--<ul class="submenu four">
-          <li><a>SubMenu 1</a></li>
-          <li><a>SubMenu 2</a></li>
-        </ul>-->
+        
       </li><li><a>About</a>
         <ul class="submenu five">
           <li><a href="../index.html#section-d">Contact</a></li>
@@ -60,7 +52,7 @@
       </div>
       <ul class="mini-menu-options">
         <li tabIndex="0"><a href="../index.html">Home</a></li>
-        <li style="background-color: #cd6302;" tabIndex="0"><a>Movies</a></li>
+        <li tabIndex="0"><a>Movies</a></li>
         <li tabIndex="0"><a href="news.html">News</a></li>
         <!-- <li tabIndex="0"><a>About</a>
           <ul class="submenu five">
@@ -69,14 +61,10 @@
             <li><a>Team</a></li>
           </ul>
         </li> -->
-        <li tabIndex="0"><a>Gallery</a></li>
-        <li tabIndex="0"><a href="../index.html#section-e">About</a>
-          <ul class="submenu five">
-            <li><a href="../index.html#section-d">Contact</a></li>
+       
+        <li><a href="../index.html#section-d">Contact</a></li>
             <li><a href="../index.html#section-e">About us</a></li>
             <li><a href="team.html">Team</a></li>
-          </ul>
-        </li>
       </ul> 
     </nav>
   </nav>
@@ -88,12 +76,13 @@
             <h1>OUR MOVIES</h1>
            </div>
         <div class="latestMovie__centerBlock">
-            <div class="movieCard" onclick="myfunc()"><img class="movieCard__poster" src="../dummyimg/lu.png"/></div>
-            <div class="movieCard" onclick="myfunc()"><img class="movieCard__poster" src="../dummyimg/poster2.jpg"/></div>
-            <div class="movieCard" onclick="myfunc()"><img class="movieCard__poster" src="../dummyimg/poster3.jpg"/></div>
+            <div class="movieCard" onclick="threat()"><img class="movieCard__poster" src="../assets/threate/threat 300X400.jpg"/></div>
+            <div class="movieCard" onclick="wn()"><img class="movieCard__poster" src="../assets/whosnext/who's next 300X400.jpg"/></div>
+            <div class="movieCard"><img class="movieCard__poster" src="../assets/hostage/Hostage 300X400.jpg"/></div>
+            <!-- <div class="movieCard" onclick="myfunc()"><img class="movieCard__poster" src="../dummyimg/poster3.jpg"/></div>
             <div class="movieCard" onclick="myfunc()"><img class="movieCard__poster" src="../dummyimg/poster4.jpg"/></div>
             <div class="movieCard" onclick="myfunc()"><img class="movieCard__poster" src="../dummyimg/poster5.jpg"/></div>
-            <div class="movieCard" onclick="myfunc()"><img class="movieCard__poster" src="../dummyimg/pposter6.jpg"/></div>
+            <div class="movieCard" onclick="myfunc()"><img class="movieCard__poster" src="../dummyimg/pposter6.jpg"/></div> -->
             <div class="latestMovie__cover"></div>
         </div>
     </div>
@@ -107,10 +96,10 @@
       </div>
       <div class="footer-left">
         <p class="footer-links" id="otl">
-          <a class="link-1" href="#">Home</a>
+          <a class="link-1" href="../index.html">Home</a>
           <a href="./movies.html">Movies</a>
           <a href="./news.html">News</a>
-          <a href="#">Gallery</a>
+          
           <a href="../index.html#section-d">Contact</a>
         </p>
         <p>Evil <span class="heighlight">Live</span> &copy; 2018</p>
@@ -120,8 +109,11 @@
     <script src="../js/jquery-2.1.4.min.js"></script>
     <script src="../js/movies.js"></script>
     <script>
-      function myfunc(){
-        window.location.href="./single-movie/movie1.html";
+      function threat(){
+        window.location.href="./single-movie/threate.html";
+      }
+      function wn(){
+        window.location.href="./single-movie/wn.html";
       }
     </script>
 </body>

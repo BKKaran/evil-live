@@ -218,3 +218,58 @@ nav##############################################
 </section>
 <!--//team-->
 <div class="pmg4"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+lates moviea####################################
+<div class="w3agile-spldishes">
+	<div class="container">
+		<div class="spldishes-agileinfo">
+			<div class="spldishes-grids">
+				<!-- Owl-Carousel -->
+				<div id="owl-demo1" class="owl-carousel text-center agileinfo-gallery-row">
+					<div class="item g1">
+						<img class="lazyOwl" src="dummyimg/slideImage2.jpeg" title="Our Team" alt=""/>
+						<div id="funn" class="agile-dish-caption">
+							<h4>TITLE</h4>
+							<p>sub title</p>
+							<ul class="top-links">
+								<li id="play-m"><a href="#"><i class="far fa-play-circle"></i></a></li>
+							</ul>
+							<span>Neque porro quisquam est qui dolorem Lorem ipsum dolor sit amet. </span>
+						</div>
+					</div>
+					<div class="item g1">
+						<img class="lazyOwl" src="dummyimg/android-android-phone-blur-248528.jpg" title="Our Team" alt=""/>
+						<div id="funn" class="agile-dish-caption">
+							<h4>TITLE</h4>
+							<p>sub title</p>
+							<ul class="top-links">
+								<li id="play-m"><a href="#"><i class="far fa-play-circle"></i></a></li>
+							</ul>
+							<span>Neque porro quisquam est qui dolorem Lorem ipsum dolor sit amet. </span>
+						</div>
+					</div>
+					
+					
+						
+					
+				</div> 
+			</div>  
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+</div>
